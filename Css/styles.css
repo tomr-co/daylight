@@ -1,5 +1,50 @@
-body {
-
-  background-image: url("img/bg.jpg");
-
+body{
+  background-image: url('https://raw.githubusercontent.com/tomr-co/daylight/master/img/bg.jpg');
+  background-size: cover;
 }
+
+/* Navigation Type Styles */
+
+li {
+  font-family: serif;
+  font-size: 15px;
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #595252;
+  text-decoration: line-through;
+}
+
+  /* Layout */
+
+  .wrapper {
+
+    margin-top: 405px;
+
+  }
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    padding:0px;
+  }
