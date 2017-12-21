@@ -58,3 +58,11 @@ span {
   font-weight: 800;
   font-size: 15px;
 }
+
+/* Video */
+
+.video {
+ height: 400px;
+ width: 560px;
+ background-color: red;
+}
